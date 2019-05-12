@@ -6,5 +6,6 @@
   "license": "MIT",
   "scripts": {
     "run:identity": "node --experimental-modules 1.identity",
+    "run:maybe": "node --experimental-modules 2.maybe"
   }
 }
