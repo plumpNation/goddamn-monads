@@ -1,4 +1,5 @@
 import Identity from './Identity';
+import { print } from '../utils';
 
 // A simple addition using Identity
 const additionResult =
@@ -8,7 +9,7 @@ const additionResult =
     });
   });
 
-console.log('additionResult', additionResult);
+print(additionResult);
 
 // If we declare the named function transform{N} it is easier to see what is
 // happening.
@@ -30,4 +31,4 @@ const fullNameResult =
     new Identity('Burkey').bind(lastName =>
       new Identity(firstName + ' ' + lastName)));
 
-console.log('fullNameResult', fullNameResult);
+print(fullNameResult);
