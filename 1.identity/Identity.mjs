@@ -3,8 +3,11 @@ class Identity {
     this.value = value;
   }
 
-  bind(transform) {
-    return transform(this.value);
+  /**
+   * @param {Function(typeof this.value)} fn
+   */
+  transform(fn) {
+    return fn(this.value);
   }
 
   toString() {
