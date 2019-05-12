@@ -5,6 +5,6 @@
   "author": "Gavin King <gavin.king@acando.no>",
   "license": "MIT",
   "scripts": {
-    "run:identity": "node --experimental-modules identity"
+    "run:identity": "node --experimental-modules 1.identity",
   }
 }
