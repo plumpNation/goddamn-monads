@@ -14,6 +14,14 @@ Why am I unable to explain them clearly? As Richard Feynman rightly points out,
 
 https://mattyford.com/blog/2014/1/23/the-feynman-technique-model
 
+SPOILER: I found this while I was working, and found it to be extraordinarily
+easy to understand. https://dev.to/theodesp/explain-monads-like-im-five
+
+> A monad acts as a container that abstracts away those quirks in the computations,
+> and let[s] us focus more on what we want to do with the contained values.
+
+Sweet christmas. What a fantastic explanation.
+
 ## An article to follow along
 
 Starting by running though this article:
